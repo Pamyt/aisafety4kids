@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/aisafety4kids/static/css/main.10ad8d8f.css",
-    "main.js": "/aisafety4kids/static/js/main.4a6b0de9.js",
+    "main.js": "/aisafety4kids/static/js/main.f0bf76c8.js",
     "static/js/453.b675fb8e.chunk.js": "/aisafety4kids/static/js/453.b675fb8e.chunk.js",
     "static/media/yiren.jpg": "/aisafety4kids/static/media/yiren.f7998b8e6cf173688521.jpg",
     "static/media/yaman.jpg": "/aisafety4kids/static/media/yaman.7140b10ee26e434ffaee.jpg",
@@ -9,11 +9,11 @@
     "static/media/yang.jpg": "/aisafety4kids/static/media/yang.39802b290b2bc8dbb29d.jpg",
     "index.html": "/aisafety4kids/index.html",
     "main.10ad8d8f.css.map": "/aisafety4kids/static/css/main.10ad8d8f.css.map",
-    "main.4a6b0de9.js.map": "/aisafety4kids/static/js/main.4a6b0de9.js.map",
+    "main.f0bf76c8.js.map": "/aisafety4kids/static/js/main.f0bf76c8.js.map",
     "453.b675fb8e.chunk.js.map": "/aisafety4kids/static/js/453.b675fb8e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.10ad8d8f.css",
-    "static/js/main.4a6b0de9.js"
+    "static/js/main.f0bf76c8.js"
   ]
 }
