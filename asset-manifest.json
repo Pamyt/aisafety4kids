@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/aisafety4kids/static/css/main.a4107bd4.css",
-    "main.js": "/aisafety4kids/static/js/main.17e621c6.js",
+    "main.css": "/aisafety4kids/static/css/main.4d690cc8.css",
+    "main.js": "/aisafety4kids/static/js/main.af90a983.js",
     "static/js/453.b675fb8e.chunk.js": "/aisafety4kids/static/js/453.b675fb8e.chunk.js",
     "static/media/yiren.jpg": "/aisafety4kids/static/media/yiren.f7998b8e6cf173688521.jpg",
     "static/media/yaman.jpg": "/aisafety4kids/static/media/yaman.7140b10ee26e434ffaee.jpg",
     "static/media/yun.jpg": "/aisafety4kids/static/media/yun.57a85a0962d0252b505d.jpg",
     "static/media/yang.jpg": "/aisafety4kids/static/media/yang.39802b290b2bc8dbb29d.jpg",
     "index.html": "/aisafety4kids/index.html",
-    "main.a4107bd4.css.map": "/aisafety4kids/static/css/main.a4107bd4.css.map",
-    "main.17e621c6.js.map": "/aisafety4kids/static/js/main.17e621c6.js.map",
+    "main.4d690cc8.css.map": "/aisafety4kids/static/css/main.4d690cc8.css.map",
+    "main.af90a983.js.map": "/aisafety4kids/static/js/main.af90a983.js.map",
     "453.b675fb8e.chunk.js.map": "/aisafety4kids/static/js/453.b675fb8e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a4107bd4.css",
-    "static/js/main.17e621c6.js"
+    "static/css/main.4d690cc8.css",
+    "static/js/main.af90a983.js"
   ]
 }
