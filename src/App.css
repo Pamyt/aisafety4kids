@@ -36,3 +36,16 @@
     transform: rotate(360deg);
   }
 }
+@keyframes drop {
+  0%   { transform: translateY(-120vh); opacity: 0; }
+  30%  { opacity: 1; }
+  80%  { transform: translateY(0); }
+  90%  { transform: translateY(-4%); }  /* 轻微反弹 */
+  100% { transform: translateY(0); }
+}
+
+/* 可选：给砖块一个轻微的随机横向抖动 */
+.brick {
+  animation-timing-function: ease-in-out;
+  will-change: transform;
+}
