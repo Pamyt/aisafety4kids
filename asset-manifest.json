@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.f785bf4b.css",
-    "main.js": "/static/js/main.3c644bbf.js",
-    "static/js/453.b675fb8e.chunk.js": "/static/js/453.b675fb8e.chunk.js",
-    "static/media/yiren.jpg": "/static/media/yiren.f7998b8e6cf173688521.jpg",
-    "static/media/yaman.jpg": "/static/media/yaman.7140b10ee26e434ffaee.jpg",
-    "static/media/yun.jpg": "/static/media/yun.57a85a0962d0252b505d.jpg",
-    "static/media/yang.jpg": "/static/media/yang.39802b290b2bc8dbb29d.jpg",
-    "index.html": "/index.html",
-    "main.f785bf4b.css.map": "/static/css/main.f785bf4b.css.map",
-    "main.3c644bbf.js.map": "/static/js/main.3c644bbf.js.map",
-    "453.b675fb8e.chunk.js.map": "/static/js/453.b675fb8e.chunk.js.map"
+    "main.css": "/aisafety4kids/static/css/main.f785bf4b.css",
+    "main.js": "/aisafety4kids/static/js/main.3ddc829e.js",
+    "static/js/453.b675fb8e.chunk.js": "/aisafety4kids/static/js/453.b675fb8e.chunk.js",
+    "static/media/yiren.jpg": "/aisafety4kids/static/media/yiren.f7998b8e6cf173688521.jpg",
+    "static/media/yaman.jpg": "/aisafety4kids/static/media/yaman.7140b10ee26e434ffaee.jpg",
+    "static/media/yun.jpg": "/aisafety4kids/static/media/yun.57a85a0962d0252b505d.jpg",
+    "static/media/yang.jpg": "/aisafety4kids/static/media/yang.39802b290b2bc8dbb29d.jpg",
+    "index.html": "/aisafety4kids/index.html",
+    "main.f785bf4b.css.map": "/aisafety4kids/static/css/main.f785bf4b.css.map",
+    "main.3ddc829e.js.map": "/aisafety4kids/static/js/main.3ddc829e.js.map",
+    "453.b675fb8e.chunk.js.map": "/aisafety4kids/static/js/453.b675fb8e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f785bf4b.css",
-    "static/js/main.3c644bbf.js"
+    "static/js/main.3ddc829e.js"
   ]
 }
