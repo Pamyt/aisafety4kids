@@ -212,13 +212,6 @@ const TaxonomyPage = () => {
                   </div>
                 </li>
                 <li className="flex items-start space-x-3">
-                  <FaTools className="text-purple-500 mt-1 flex-shrink-0" />
-                  <div>
-                    <span className="font-semibold">Intervention Support:</span>
-                    <p className="text-sm">Provides suggestions for safer alternative responses</p>
-                  </div>
-                </li>
-                <li className="flex items-start space-x-3">
                   <FaUsers className="text-orange-500 mt-1 flex-shrink-0" />
                   <div>
                     <span className="font-semibold">Youth-Specific:</span>

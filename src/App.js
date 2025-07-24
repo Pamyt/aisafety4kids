@@ -90,6 +90,41 @@ const team = [
   },
 ]
 
+const researchAssistants = [
+  {
+    name: "Melinda Hu",
+    role: "Research Assistant",
+    links: {
+      github: "https://github.com/melindahu",
+      linkedin: "https://linkedin.com/in/melinda-hu",
+    },
+  },
+  {
+    name: "Justin Wang",
+    role: "Research Assistant",
+    links: {
+      github: "https://github.com/justinwang",
+      linkedin: "https://linkedin.com/in/justin-wang",
+    },
+  },
+  {
+    name: "Jacky Zhang",
+    role: "Research Assistant",
+    links: {
+      github: "https://github.com/jackyzhang",
+      linkedin: "https://linkedin.com/in/jacky-zhang",
+    },
+  },
+  {
+    name: "Tanusree Sharma",
+    role: "Research Assistant",
+    links: {
+      github: "https://github.com/tanusreesharma",
+      linkedin: "https://linkedin.com/in/tanusree-sharma",
+    },
+  },
+]
+
 /* ------------------------------ Components ------------------------------ */
 const TeamGrid = () => (
   <div className="grid md:grid-cols-4 gap-8">
@@ -127,6 +162,48 @@ const TeamGrid = () => (
           </a>
           <a
             href={m.links.linkedin}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:text-blue-800 transition-colors duration-200"
+          >
+            <FaLinkedin />
+          </a>
+        </div>
+      </div>
+    ))}
+  </div>
+)
+
+const ResearchAssistantsGrid = () => (
+  <div className="grid md:grid-cols-4 gap-8">
+    {researchAssistants.map((ra) => (
+      <div
+        key={ra.name}
+        className="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2 border border-gray-100"
+      >
+        <div className="w-32 h-32 rounded-full bg-gradient-to-br from-green-100 to-teal-100 border-4 border-white overflow-hidden mb-4 mx-auto shadow-lg flex items-center justify-center">
+          <div className="text-4xl text-green-600 font-bold">
+            {ra.name.split(' ').map(n => n[0]).join('')}
+          </div>
+        </div>
+        <h3
+          className="text-xl font-semibold mb-1 text-blue-950 text-center"
+          style={{ fontFamily: "'Inter', sans-serif" }}
+        >
+          {ra.name}
+        </h3>
+        <p className="text-gray-600 mb-4 font-medium text-center">{ra.role}</p>
+        <div className="flex space-x-3 text-xl text-blue-600 mt-auto justify-center">
+          <a
+            href={ra.links.github}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:text-blue-800 transition-colors duration-200"
+          >
+            <FaGithub />
+          </a>
+          <a
+            href={ra.links.linkedin}
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-blue-800 transition-colors duration-200"
@@ -406,7 +483,21 @@ const HomePage = () => (
         <p className="text-xl text-gray-700 mb-12 max-w-3xl mx-auto">
           Research team from the University of Illinois Urbana-Champaign, dedicated to creating a safer AI environment for youth
         </p>
-        <TeamGrid />
+
+        {/* Principal Researchers */}
+        <div className="mb-16">
+          <h3 className="text-2xl font-bold text-blue-950 mb-8" style={{ fontFamily: "'Inter', sans-serif" }}>
+          </h3>
+          <TeamGrid />
+        </div>
+
+        {/* Research Assistants */}
+        <div>
+          <h3 className="text-2xl font-bold text-blue-950 mb-8" style={{ fontFamily: "'Inter', sans-serif" }}>
+            Research Assistants
+          </h3>
+          <ResearchAssistantsGrid />
+        </div>
       </div>
     </section>
 
@@ -478,7 +569,7 @@ export default function App () {
                 className="hover:text-blue-600 font-medium transition-colors duration-200"
                 onClick={() => setNavOpen(false)}
               >
-                Tool
+                Platform
               </Link>
             </nav>
             <button

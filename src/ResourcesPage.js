@@ -9,15 +9,15 @@ const publications = [
     authors: "Yaman Yu · Tanusree Sharma · Melinda Hu · Justin Wang · Yang Wang",
     pdf: "https://arxiv.org/pdf/2406.10461",    // Placeholder - update with actual PDF link
     arxiv: "https://arxiv.org/abs/2406.10461",  // Placeholder - update with actual arXiv link
-    conference: "CHI 2024",
+    conference: "2025 IEEE Symposium on Security and Privacy (SP)",
     abstract: "This paper investigates how parents and children perceive safety in generative AI interactions, identifying key concerns and proposing design strategies for safer AI systems."
   },
   {
-    title: "Understanding Generative AI Risks for Youth: A Taxonomy Based on Empirical Data",
+    title: "Youth-Centered GAI Risks (YAIR): A Taxonomy of Generative AI Risks from Empirical Data",
     authors: "Yaman Yu · Yiren Liu · Jacky Zhang · Yun Huang · Yang Wang",
     pdf: "https://arxiv.org/pdf/2502.16383",    // Placeholder - update with actual PDF link
     arxiv: "https://arxiv.org/abs/2502.16383",  // Placeholder - update with actual arXiv link
-    conference: "FAccT 2024",
+    conference: "SOUPS 2025",
     abstract: "We present a comprehensive taxonomy of generative AI risks for youth based on analysis of over 12,000 conversation snippets, providing a framework for understanding and mitigating these risks."
   },
   {
@@ -25,7 +25,7 @@ const publications = [
     authors: "Yaman Yu · Yiren Liu · Jacky Zhang · Yun Huang · Yang Wang",
     pdf: "https://arxiv.org/pdf/2401.54321",    // Placeholder - update with actual PDF link
     arxiv: "https://arxiv.org/abs/2401.54321",  // Placeholder - update with actual arXiv link
-    conference: "ICLR 2024",
+    conference: "CCS 2025",
     abstract: "We introduce YouthSafe, a safety benchmark and safeguard model specifically designed for youth-AI interactions, trained on our YAIR dataset to detect and prevent harmful content."
   },
 ]
@@ -126,7 +126,7 @@ const ResourcesPage = () => {
             </div>
             <div className="bg-white border-2 border-green-300 p-6 rounded-xl shadow-lg">
               <div className="text-3xl font-bold mb-2 text-green-600">3</div>
-              <div className="text-gray-600">Peer-reviewed Papers</div>
+              <div className="text-gray-600">Published Papers</div>
             </div>
           </div>
         </div>
@@ -201,7 +201,7 @@ const ResourcesPage = () => {
             Publications
           </h2>
           <p className="text-xl text-gray-700 text-center mb-16 max-w-3xl mx-auto">
-            Below are our latest peer-reviewed papers that provide in-depth analyses of generative AI risks for youth and potential safeguards:
+            Below are our latest published papers that provide in-depth analyses of generative AI risks for youth and potential safeguards:
           </p>
           <div className="space-y-8">
             {publications.map((publication, index) => (
